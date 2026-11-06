@@ -20,7 +20,14 @@ $$
 
 ## My attempt
 
+**First equation** ($5x - y = 4$):
 
+$$
+5(4) - 0 = 20 \neq 4
+$$
+
+**Answer.** $(4,\ 0)$ does not satisfy the first equation, so it is **not** a solution of the system
+(one failed equation is enough).
 
 ## Mistake / lesson
 
