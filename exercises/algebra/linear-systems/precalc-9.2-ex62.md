@@ -22,4 +22,4 @@ account, how much was invested in each account?
 
 ## Related
 
-- [Systems of linear equations in three variables](../../notes/algebra/systems-of-linear-equations-three-variables.md)
+- [Systems of linear equations in three variables](../../../notes/algebra/linear-systems/three-variables.md)

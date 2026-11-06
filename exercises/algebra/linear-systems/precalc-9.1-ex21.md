@@ -77,4 +77,4 @@ $$
 
 ## Related
 
-- [Systems of linear equations](../../notes/algebra/systems-of-linear-equations.md)
+- [Systems of linear equations](../../../notes/algebra/linear-systems/two-variables.md)

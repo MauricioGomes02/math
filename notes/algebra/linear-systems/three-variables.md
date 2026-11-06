@@ -62,18 +62,18 @@ from one other pair.
 
 | Exercise | Topic | Difficulty |
 |---|---|---|
-| [ex01](../../exercises/algebra/precalc-9.2-ex01.md) | Number of solutions | intro |
-| [ex06](../../exercises/algebra/precalc-9.2-ex06.md) | Is the triple a solution? | intro |
-| [ex11](../../exercises/algebra/precalc-9.2-ex11.md) | Elimination | intermediate |
-| [ex17](../../exercises/algebra/precalc-9.2-ex17.md) | Elimination with a missing variable | intermediate |
-| [ex20](../../exercises/algebra/precalc-9.2-ex20.md) | Elimination | intermediate |
-| [ex23](../../exercises/algebra/precalc-9.2-ex23.md) | Elimination | intermediate |
-| [ex51](../../exercises/algebra/precalc-9.2-ex51.md) | Word problem | intermediate |
-| [ex30](../../exercises/algebra/precalc-9.2-ex30.md) | Elimination with fractions | hard |
-| [ex37](../../exercises/algebra/precalc-9.2-ex37.md) | Elimination with decimals | hard |
-| [ex46](../../exercises/algebra/precalc-9.2-ex46.md) | Elimination with shifted variables | hard |
-| [ex62](../../exercises/algebra/precalc-9.2-ex62.md) | Investments | hard |
+| [ex01](../../../exercises/algebra/linear-systems/precalc-9.2-ex01.md) | Number of solutions | intro |
+| [ex06](../../../exercises/algebra/linear-systems/precalc-9.2-ex06.md) | Is the triple a solution? | intro |
+| [ex11](../../../exercises/algebra/linear-systems/precalc-9.2-ex11.md) | Elimination | intermediate |
+| [ex17](../../../exercises/algebra/linear-systems/precalc-9.2-ex17.md) | Elimination with a missing variable | intermediate |
+| [ex20](../../../exercises/algebra/linear-systems/precalc-9.2-ex20.md) | Elimination | intermediate |
+| [ex23](../../../exercises/algebra/linear-systems/precalc-9.2-ex23.md) | Elimination | intermediate |
+| [ex51](../../../exercises/algebra/linear-systems/precalc-9.2-ex51.md) | Word problem | intermediate |
+| [ex30](../../../exercises/algebra/linear-systems/precalc-9.2-ex30.md) | Elimination with fractions | hard |
+| [ex37](../../../exercises/algebra/linear-systems/precalc-9.2-ex37.md) | Elimination with decimals | hard |
+| [ex46](../../../exercises/algebra/linear-systems/precalc-9.2-ex46.md) | Elimination with shifted variables | hard |
+| [ex62](../../../exercises/algebra/linear-systems/precalc-9.2-ex62.md) | Investments | hard |
 
 ## See also
 
-- [Systems of linear equations in two variables](systems-of-linear-equations.md)
+- [Systems of linear equations in two variables](two-variables.md)

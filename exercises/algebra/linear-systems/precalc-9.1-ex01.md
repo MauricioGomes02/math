@@ -43,4 +43,4 @@ So a linear system has 0, 1 or infinitely many solutions, never exactly two.
 
 ## Related
 
-- [Systems of linear equations](../../notes/algebra/systems-of-linear-equations.md)
+- [Systems of linear equations](../../../notes/algebra/linear-systems/two-variables.md)

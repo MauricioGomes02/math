@@ -73,20 +73,20 @@ $\{(x,\, y(x)) : x \in \mathbb{R}\}$. For example, for $x + 2y = 4$: $\left(x,\ 
 
 | Exercise | Topic | Difficulty |
 |---|---|---|
-| [ex01](../../exercises/algebra/precalc-9.1-ex01.md) | Number of solutions | intro |
-| [ex06](../../exercises/algebra/precalc-9.1-ex06.md) | Is the pair a solution? | intro |
-| [ex07](../../exercises/algebra/precalc-9.1-ex07.md) | Is the pair a solution? | intro |
-| [ex11](../../exercises/algebra/precalc-9.1-ex11.md) | Substitution | intro |
-| [ex12](../../exercises/algebra/precalc-9.1-ex12.md) | Substitution | intermediate |
-| [ex21](../../exercises/algebra/precalc-9.1-ex21.md) | Addition | intermediate |
-| [ex25](../../exercises/algebra/precalc-9.1-ex25.md) | Addition | intermediate |
-| [ex26](../../exercises/algebra/precalc-9.1-ex26.md) | Addition | intermediate |
-| [ex56](../../exercises/algebra/precalc-9.1-ex56.md) | Break-even | intermediate |
-| [ex19](../../exercises/algebra/precalc-9.1-ex19.md) | Substitution with fractions | hard |
-| [ex27](../../exercises/algebra/precalc-9.1-ex27.md) | Addition with fractions | hard |
-| [ex60](../../exercises/algebra/precalc-9.1-ex60.md) | Break-even price | hard |
+| [ex01](../../../exercises/algebra/linear-systems/precalc-9.1-ex01.md) | Number of solutions | intro |
+| [ex06](../../../exercises/algebra/linear-systems/precalc-9.1-ex06.md) | Is the pair a solution? | intro |
+| [ex07](../../../exercises/algebra/linear-systems/precalc-9.1-ex07.md) | Is the pair a solution? | intro |
+| [ex11](../../../exercises/algebra/linear-systems/precalc-9.1-ex11.md) | Substitution | intro |
+| [ex12](../../../exercises/algebra/linear-systems/precalc-9.1-ex12.md) | Substitution | intermediate |
+| [ex21](../../../exercises/algebra/linear-systems/precalc-9.1-ex21.md) | Addition | intermediate |
+| [ex25](../../../exercises/algebra/linear-systems/precalc-9.1-ex25.md) | Addition | intermediate |
+| [ex26](../../../exercises/algebra/linear-systems/precalc-9.1-ex26.md) | Addition | intermediate |
+| [ex56](../../../exercises/algebra/linear-systems/precalc-9.1-ex56.md) | Break-even | intermediate |
+| [ex19](../../../exercises/algebra/linear-systems/precalc-9.1-ex19.md) | Substitution with fractions | hard |
+| [ex27](../../../exercises/algebra/linear-systems/precalc-9.1-ex27.md) | Addition with fractions | hard |
+| [ex60](../../../exercises/algebra/linear-systems/precalc-9.1-ex60.md) | Break-even price | hard |
 
 ## See also
 
-- [Systems of linear equations in three variables](systems-of-linear-equations-three-variables.md)
-- [Break-even analysis](../economics/break-even.md)
+- [Systems of linear equations in three variables](three-variables.md)
+- [Break-even analysis](../../economics/break-even.md)

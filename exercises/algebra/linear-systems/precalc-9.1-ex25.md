@@ -77,4 +77,4 @@ Upper line: $y = \tfrac{1}{2}x - 0.5$. Lower line: $y = \tfrac{1}{2}x - 0.6$.
 
 ## Related
 
-- [Systems of linear equations](../../notes/algebra/systems-of-linear-equations.md)
+- [Systems of linear equations](../../../notes/algebra/linear-systems/two-variables.md)

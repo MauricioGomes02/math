@@ -18,4 +18,4 @@ $\frac{3}{4}$ the larger. What are the three numbers?
 
 ## Related
 
-- [Systems of linear equations in three variables](../../notes/algebra/systems-of-linear-equations-three-variables.md)
+- [Systems of linear equations in three variables](../../../notes/algebra/linear-systems/three-variables.md)

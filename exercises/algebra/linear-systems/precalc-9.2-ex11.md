@@ -1,6 +1,6 @@
 ---
 source: PRECALC
-ref: "9.2 #23"
+ref: "9.2 #11"
 topics: [system-of-equations, three-variables, elimination]
 difficulty: intermediate
 ---
@@ -9,13 +9,13 @@ difficulty: intermediate
 
 ## Problem
 
-Solve the system.
+Solve the system by elimination.
 
 $$
 \begin{cases}
-x + y + z = 14 \\
-2y + 3z = -14 \\
--16y - 24z = -112
+3x - 4y + 2z = -15 \\
+2x + 4y + z = 16 \\
+2x + 3y + 5z = 20
 \end{cases}
 $$
 
@@ -25,4 +25,4 @@ $$
 
 ## Related
 
-- [Systems of linear equations in three variables](../../notes/algebra/systems-of-linear-equations-three-variables.md)
+- [Systems of linear equations in three variables](../../../notes/algebra/linear-systems/three-variables.md)

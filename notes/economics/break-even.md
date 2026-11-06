@@ -44,9 +44,9 @@ Break-even: $(50{,}000,\ 77{,}500)$. Profit function: $P(x) = 0.7x - 35{,}000$.
 
 ## Exercises
 
-- [precalc-9.1-ex56](../../exercises/algebra/precalc-9.1-ex56.md)
-- [precalc-9.1-ex60](../../exercises/algebra/precalc-9.1-ex60.md)
+- [precalc-9.1-ex56](../../exercises/algebra/linear-systems/precalc-9.1-ex56.md)
+- [precalc-9.1-ex60](../../exercises/algebra/linear-systems/precalc-9.1-ex60.md)
 
 ## See also
 
-- [Systems of linear equations](../algebra/systems-of-linear-equations.md)
+- [Systems of linear equations](../algebra/linear-systems/two-variables.md)
