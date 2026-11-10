@@ -89,4 +89,5 @@ $\{(x,\, y(x)) : x \in \mathbb{R}\}$. For example, for $x + 2y = 4$: $\left(x,\ 
 ## See also
 
 - [Systems of linear equations in three variables](three-variables.md)
+- [Systems of nonlinear equations and inequalities](../nonlinear-systems/two-variables.md)
 - [Break-even analysis](../../economics/break-even.md)
