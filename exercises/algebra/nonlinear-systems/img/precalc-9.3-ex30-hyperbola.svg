@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" font-family="sans-serif" font-size="13">
+  <!-- 1 unit = 20 px, origin at (220, 220) -->
+  <rect width="440" height="440" fill="#ffffff"/>
+
+  <!-- grid -->
+  <g stroke="#e6e6e6" stroke-width="1">
+    <path d="M20 0V440M40 0V440M60 0V440M80 0V440M100 0V440M120 0V440M140 0V440M160 0V440M180 0V440M200 0V440M240 0V440M260 0V440M280 0V440M300 0V440M320 0V440M340 0V440M360 0V440M380 0V440M400 0V440M420 0V440"/>
+    <path d="M0 20H440M0 40H440M0 60H440M0 80H440M0 100H440M0 120H440M0 140H440M0 160H440M0 180H440M0 200H440M0 240H440M0 260H440M0 280H440M0 300H440M0 320H440M0 340H440M0 360H440M0 380H440M0 400H440M0 420H440"/>
+  </g>
+
+  <!-- asymptotes y = x and y = -x -->
+  <g stroke="#999999" stroke-width="1.2" stroke-dasharray="6 5">
+    <line x1="0" y1="440" x2="440" y2="0"/>
+    <line x1="0" y1="0" x2="440" y2="440"/>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#333333" stroke-width="1.5">
+    <line x1="5" y1="220" x2="432" y2="220"/>
+    <line x1="220" y1="435" x2="220" y2="8"/>
+  </g>
+  <polygon points="436,220 428,216 428,224" fill="#333333"/>
+  <polygon points="220,4 216,12 224,12" fill="#333333"/>
+  <text x="424" y="210" fill="#333333">x</text>
+  <text x="228" y="16" fill="#333333">y</text>
+  <text x="206" y="236" fill="#333333">0</text>
+
+  <!-- hyperbola x^2 - y^2 = 36: x = ±sqrt(36 + y^2), y from -9 to 9 -->
+  <g fill="none" stroke="#e07b00" stroke-width="2.5" stroke-linejoin="round">
+    <polyline points="436.3,40 420,60 404.4,80 389.7,100 376.2,120 364.2,140 354.2,160 346.5,180 341.7,200 340.4,210 340,220 340.4,230 341.7,240 346.5,260 354.2,280 364.2,300 376.2,320 389.7,340 404.4,360 420,380 436.3,400"/>
+    <polyline points="3.7,40 20,60 35.6,80 50.3,100 63.8,120 75.8,140 85.8,160 93.5,180 98.3,200 99.6,210 100,220 99.6,230 98.3,240 93.5,260 85.8,280 75.8,300 63.8,320 50.3,340 35.6,360 20,380 3.7,400"/>
+  </g>
+  <text x="250" y="34" fill="#e07b00">x² − y² = 36</text>
+
+  <!-- vertices -->
+  <g fill="#e07b00">
+    <circle cx="340" cy="220" r="4.5"/>
+    <circle cx="100" cy="220" r="4.5"/>
+  </g>
+  <g fill="#e07b00" font-weight="bold">
+    <text x="346" y="238">(6, 0)</text>
+    <text x="45" y="238">(−6, 0)</text>
+  </g>
+
+  <text x="200" y="432" fill="#777777" font-size="12">dashed: asymptotes y = ±x</text>
+</svg>

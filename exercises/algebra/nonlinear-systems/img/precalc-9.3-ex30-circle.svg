@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" font-family="sans-serif" font-size="13">
+  <!-- 1 unit = 25 px, origin at (200, 200) -->
+  <rect width="400" height="400" fill="#ffffff"/>
+
+  <!-- grid -->
+  <g stroke="#e6e6e6" stroke-width="1">
+    <path d="M25 0V400M50 0V400M75 0V400M100 0V400M125 0V400M150 0V400M175 0V400M225 0V400M250 0V400M275 0V400M300 0V400M325 0V400M350 0V400M375 0V400"/>
+    <path d="M0 25H400M0 50H400M0 75H400M0 100H400M0 125H400M0 150H400M0 175H400M0 225H400M0 250H400M0 275H400M0 300H400M0 325H400M0 350H400M0 375H400"/>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#333333" stroke-width="1.5">
+    <line x1="10" y1="200" x2="390" y2="200"/>
+    <line x1="200" y1="390" x2="200" y2="10"/>
+  </g>
+  <polygon points="390,200 382,196 382,204" fill="#333333"/>
+  <polygon points="200,10 196,18 204,18" fill="#333333"/>
+  <text x="380" y="190" fill="#333333">x</text>
+  <text x="208" y="20" fill="#333333">y</text>
+
+  <!-- circle x^2 + y^2 = 25 (radius 5) -->
+  <circle cx="200" cy="200" r="125" fill="none" stroke="#2a6fdb" stroke-width="2.5"/>
+  <text x="280" y="95" fill="#2a6fdb">x² + y² = 25</text>
+
+  <!-- axis intercepts -->
+  <g fill="#d1453b">
+    <circle cx="325" cy="200" r="4.5"/>
+    <circle cx="75" cy="200" r="4.5"/>
+    <circle cx="200" cy="75" r="4.5"/>
+    <circle cx="200" cy="325" r="4.5"/>
+  </g>
+  <g fill="#d1453b" font-weight="bold">
+    <text x="330" y="218">(5, 0)</text>
+    <text x="30" y="218">(−5, 0)</text>
+    <text x="208" y="68">(0, 5)</text>
+    <text x="208" y="343">(0, −5)</text>
+  </g>
+
+  <!-- origin -->
+  <text x="186" y="216" fill="#333333">0</text>
+</svg>
