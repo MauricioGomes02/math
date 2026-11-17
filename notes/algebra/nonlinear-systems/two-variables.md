@@ -33,6 +33,52 @@ points where the curves cross. Unlike two lines, curves can cross **more than on
 
 Sketching the two curves first tells you how many solutions to expect.
 
+## Identifying the curves
+
+> **Note:** this is only an overview, enough to recognize the curves while solving systems.
+> Conic sections (ellipses, hyperbolas, parabolas and rotation of axes) are studied in depth
+> later, in PRECALC chapter 10.
+
+### Quick look (no $xy$ term)
+
+| Equation shape | Curve |
+|---|---|
+| $x^2$ and $y^2$ with the **same** coefficient, e.g. $x^2 + y^2 = 16$ | circle |
+| $x^2$ and $y^2$ with **different positive** coefficients, e.g. $x^2 + 4y^2 = 4$ | ellipse |
+| $x^2$ and $y^2$ with **opposite signs**, e.g. $x^2 - y^2 = 9$ | hyperbola |
+| only **one** variable squared, e.g. $y = x^2 - 1$ | parabola |
+
+### The discriminant
+
+Any of these curves can be written in the general form
+
+$$
+Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
+$$
+
+The sign of $B^2 - 4AC$ gives the type, even when there is an $xy$ term:
+
+| $B^2 - 4AC$ | Curve |
+|---|---|
+| $< 0$ | ellipse (a circle when $B = 0$ and $A = C$) |
+| $= 0$ | parabola |
+| $> 0$ | hyperbola |
+
+(Degenerate cases, such as a single point or a pair of lines, can also appear; they are left
+for chapter 10.)
+
+### Rotation of axes
+
+An $xy$ term means the curve is tilted. Rotating the axes by an angle $\theta$ gives new
+coordinates $(x', y')$ where the $xy$ term disappears:
+
+$$
+x = x'\cos\theta - y'\sin\theta, \qquad y = x'\sin\theta + y'\cos\theta,
+\qquad \cot 2\theta = \frac{A - C}{B}
+$$
+
+Rotation changes $A$, $B$ and $C$, but not $B^2 - 4AC$, so the type of curve stays the same.
+
 ## Methods
 
 ### 1. Substitution

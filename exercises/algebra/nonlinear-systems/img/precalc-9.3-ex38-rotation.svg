@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" font-family="sans-serif" font-size="13">
+  <!-- 1 unit = 40 px, origin at (200, 200) -->
+  <rect width="400" height="400" fill="#ffffff"/>
+
+  <!-- grid -->
+  <g stroke="#e6e6e6" stroke-width="1">
+    <path d="M40 0V400M80 0V400M120 0V400M160 0V400M240 0V400M280 0V400M320 0V400M360 0V400"/>
+    <path d="M0 40H400M0 80H400M0 120H400M0 160H400M0 240H400M0 280H400M0 320H400M0 360H400"/>
+  </g>
+
+  <!-- rotated axes: x' along y = x, y' along y = -x -->
+  <g stroke="#8a4fd1" stroke-width="1.5" stroke-dasharray="7 5">
+    <line x1="10" y1="390" x2="388" y2="12"/>
+    <line x1="390" y1="390" x2="12" y2="12"/>
+  </g>
+  <polygon points="392,8 382,12 388,18" fill="#8a4fd1"/>
+  <polygon points="8,8 18,12 12,18" fill="#8a4fd1"/>
+  <g fill="#8a4fd1" font-weight="bold">
+    <text x="366" y="34">x′</text>
+    <text x="22" y="40">y′</text>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#333333" stroke-width="1.5">
+    <line x1="10" y1="200" x2="390" y2="200"/>
+    <line x1="200" y1="390" x2="200" y2="10"/>
+  </g>
+  <polygon points="394,200 386,196 386,204" fill="#333333"/>
+  <polygon points="200,6 196,14 204,14" fill="#333333"/>
+  <text x="380" y="190" fill="#333333">x</text>
+  <text x="208" y="18" fill="#333333">y</text>
+  <text x="186" y="216" fill="#333333">0</text>
+
+  <!-- 45 degree angle between x-axis and x'-axis -->
+  <path d="M290 200 A90 90 0 0 0 263.6 136.4" fill="none" stroke="#8a4fd1" stroke-width="1.5"/>
+  <text x="294" y="168" fill="#8a4fd1">45°</text>
+
+  <!-- hyperbola xy = 1 -->
+  <g fill="none" stroke="#e07b00" stroke-width="2.5" stroke-linejoin="round">
+    <polyline points="208,0 210,40 213.3,80 216,100 220,120 226.7,140 232,150 240,160 250,168 260,173.3 280,180 300,184 320,186.7 360,190 400,192"/>
+    <polyline points="192,400 190,360 186.7,320 184,300 180,280 173.3,260 168,250 160,240 150,232 140,226.7 120,220 100,216 80,213.3 40,210 0,208"/>
+  </g>
+  <text x="300" y="120" fill="#e07b00">xy = 1</text>
+
+  <!-- vertices -->
+  <g fill="#e07b00">
+    <circle cx="240" cy="160" r="4.5"/>
+    <circle cx="160" cy="240" r="4.5"/>
+  </g>
+  <g fill="#e07b00" font-weight="bold" stroke="#ffffff" stroke-width="4" paint-order="stroke">
+    <text x="246" y="194">(1, 1)</text>
+    <text x="154" y="214" text-anchor="end">(−1, −1)</text>
+  </g>
+
+  <text x="146" y="394" fill="#8a4fd1" font-size="12">dashed: rotated axes x′, y′</text>
+</svg>

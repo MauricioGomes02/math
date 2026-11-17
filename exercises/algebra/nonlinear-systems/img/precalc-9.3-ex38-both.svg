@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" font-family="sans-serif" font-size="13">
+  <!-- 1 unit = 50 px, origin at (200, 200) -->
+  <rect width="400" height="400" fill="#ffffff"/>
+
+  <!-- grid -->
+  <g stroke="#e6e6e6" stroke-width="1">
+    <path d="M50 0V400M100 0V400M150 0V400M250 0V400M300 0V400M350 0V400"/>
+    <path d="M0 50H400M0 100H400M0 150H400M0 250H400M0 300H400M0 350H400"/>
+  </g>
+
+  <!-- inside of the circle -->
+  <circle cx="200" cy="200" r="122.47" fill="#2a6fdb" fill-opacity="0.08"/>
+
+  <!-- axes -->
+  <g stroke="#333333" stroke-width="1.5">
+    <line x1="10" y1="200" x2="390" y2="200"/>
+    <line x1="200" y1="390" x2="200" y2="10"/>
+  </g>
+  <polygon points="394,200 386,196 386,204" fill="#333333"/>
+  <polygon points="200,6 196,14 204,14" fill="#333333"/>
+  <text x="380" y="190" fill="#333333">x</text>
+  <text x="208" y="18" fill="#333333">y</text>
+  <text x="186" y="216" fill="#333333">0</text>
+
+  <!-- circle x^2 + y^2 = 6 (radius sqrt 6 ~ 2.449) -->
+  <circle cx="200" cy="200" r="122.47" fill="none" stroke="#2a6fdb" stroke-width="2.5"/>
+  <text x="292" y="78" fill="#2a6fdb">x² + y² = 6</text>
+
+  <!-- hyperbola xy = 1 -->
+  <g fill="none" stroke="#e07b00" stroke-width="2.5" stroke-linejoin="round">
+    <polyline points="212.5,0 215,33.3 220,75 225,100 230,116.7 237.5,133.3 250,150 262.5,160 275,166.7 300,175 325,180 350,183.3 400,187.5"/>
+    <polyline points="187.5,400 185,366.7 180,325 175,300 170,283.3 162.5,266.7 150,250 137.5,240 125,233.3 100,225 75,220 50,216.7 0,212.5"/>
+  </g>
+  <text x="230" y="30" fill="#e07b00">xy = 1</text>
+
+  <!-- distance from origin to the vertex (1, 1) -->
+  <line x1="200" y1="200" x2="250" y2="150" stroke="#555555" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="206" y="168" fill="#555555" stroke="#ffffff" stroke-width="4" paint-order="stroke">√2</text>
+
+  <!-- circle intercepts on the x-axis -->
+  <g fill="#2a6fdb">
+    <circle cx="322.5" cy="200" r="4"/>
+    <circle cx="77.5" cy="200" r="4"/>
+  </g>
+  <g fill="#2a6fdb" font-weight="bold" stroke="#ffffff" stroke-width="4" paint-order="stroke">
+    <text x="326" y="218">(√6, 0)</text>
+    <text x="74" y="218" text-anchor="end">(−√6, 0)</text>
+  </g>
+
+  <!-- hyperbola vertices -->
+  <g fill="#e07b00">
+    <circle cx="250" cy="150" r="4.5"/>
+    <circle cx="150" cy="250" r="4.5"/>
+  </g>
+  <g fill="#e07b00" font-weight="bold" stroke="#ffffff" stroke-width="4" paint-order="stroke">
+    <text x="256" y="146">(1, 1)</text>
+    <text x="144" y="264" text-anchor="end">(−1, −1)</text>
+  </g>
+
+  <text x="104" y="394" fill="#2a6fdb" font-size="12">shaded: inside the circle, x² + y² &lt; 6</text>
+</svg>
