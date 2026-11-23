@@ -77,3 +77,4 @@ from one other pair.
 ## See also
 
 - [Systems of linear equations in two variables](two-variables.md)
+- [Partial fractions](../partial-fractions/decomposition.md) (finding the constants leads to a linear system)
